@@ -1,0 +1,362 @@
+{
+  "trainingPhrases": [
+    {
+      "name": "f6c691a8-ce87-413f-ba4d-f94d8cce279c",
+      "parts": [
+        {
+          "text": "разбил "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "монитор"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "204a2dd3-382a-4fc9-adab-6b9e7e65aa6a",
+      "parts": [
+        {
+          "text": "шум в "
+        },
+        {
+          "entityType": "@supply",
+          "alias": "supply",
+          "text": "наушниках"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "e4a43a89-e39e-4397-9a4f-ee1baebd55fa",
+      "parts": [
+        {
+          "text": "не слышно ничего в "
+        },
+        {
+          "entityType": "@supply",
+          "alias": "supply",
+          "text": "наушниках"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "da9b431e-03b5-4bf5-a184-dcce74e8d7ff",
+      "parts": [
+        {
+          "text": "уронил кофе на "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "клавиатуру"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "5f689dac-78e2-4c9c-9930-89bfda4ab112",
+      "parts": [
+        {
+          "text": "облил "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "клавиатуру"
+        },
+        {
+          "text": " водой"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "887289ba-d3d0-4b42-8602-23989c7bbf64",
+      "parts": [
+        {
+          "text": "залил "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "клавиатуру"
+        },
+        {
+          "text": " кофе"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "9ca5daa3-ba35-4158-b47c-e483c3fb90b1",
+      "parts": [
+        {
+          "text": "запала кнопка на "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "клавиатуре"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "e2ddba07-5294-489d-9fef-94454352f009",
+      "parts": [
+        {
+          "text": "западают кнопки на "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "клавиатуре"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "bbac6d87-45d1-46aa-803a-23ff7ef59a76",
+      "parts": [
+        {
+          "text": "слепой "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "монитор"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "499790c9-e476-4f12-a9bb-d37aed1d7265",
+      "parts": [
+        {
+          "text": "Ничего не видно на "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "мониторе"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "191d3ea6-1d04-4204-a7aa-27bff6ecf27a",
+      "parts": [
+        {
+          "text": "плохой "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "монитор"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "0674b620-84b9-4a1d-8501-4e4f25bb8292",
+      "parts": [
+        {
+          "text": "плохая "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "клавиатура"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "83f37177-0e7b-41a4-ba06-45e69c5bcad2",
+      "parts": [
+        {
+          "text": "Не работает "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "клавиатура"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "2123b330-7743-4f9b-9bcf-2cdc160f23fd",
+      "parts": [
+        {
+          "text": "Сломались "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "наушники"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "c52b2cc4-f53e-4e68-a628-07c3462ce90e",
+      "parts": [
+        {
+          "text": "Нужны "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "наушники"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "599f025a-9864-47b6-9fc6-6e8205180744",
+      "parts": [
+        {
+          "text": "Нужна "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "гарнитура"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "9390831a-9551-4b06-a267-3cab7f735619",
+      "parts": [
+        {
+          "text": "Нужен дополнительный "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "стол"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "0b49f4fb-b1a9-403f-ae80-fb58e0116b9e",
+      "parts": [
+        {
+          "text": "Сломалось "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "кресло"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "5e880758-7e90-4bdb-8c68-294e629c33ff",
+      "parts": [
+        {
+          "text": "Уронил "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "телефон"
+        },
+        {
+          "text": " в унитаз"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "eaf26c82-5d65-43d8-82cf-a4471067aa7a",
+      "parts": [
+        {
+          "text": "Сгорел "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "телефон"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "1e22bb3e-1959-4660-9900-53c4d93583d0",
+      "parts": [
+        {
+          "text": "Сломалась "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "мышка"
+        }
+      ],
+      "type": "EXAMPLE"
+    },
+    {
+      "name": "474218db-9eae-4141-be51-4f6d2712b3b5",
+      "parts": [
+        {
+          "text": "Разбил "
+        },
+        {
+          "entityType": "@supply",
+          "userDefined": true,
+          "alias": "supply",
+          "text": "ноутбук"
+        }
+      ],
+      "type": "EXAMPLE"
+    }
+  ],
+  "displayName": "Административно-хозяйственный отдел",
+  "name": "projects/newagent-aqmkfe/agent/intents/29b1656a-b34e-445f-ae5d-2eb3d40520d1",
+  "mlEnabled": true,
+  "action": "HelpDesk_supply",
+  "messages": [
+    {
+      "text": {}
+    }
+  ],
+  "priority": 500000,
+  "parameters": [
+    {
+      "displayName": "supply",
+      "name": "7d8b30c9-81c2-406f-8b4e-2c32f1cba4a1",
+      "entityTypeDisplayName": "@supply",
+      "value": "$supply",
+      "prompts": [
+        "Уточните, что именно вам нужно"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "intents": [
+    {
+      "displayName": "Languages",
+      "webhookState": "WEBHOOK_STATE_ENABLED",
+      "name": "projects/newagent-aqmkfe/agent/intents/1bff266d-45e6-412b-b073-9cebd1bdd16d",
+      "mlEnabled": true,
+      "action": "extract_lang",
+      "messages": [
+        {
+          "text": {
+            "text": [
+              "Ты молодец! А я владею итальянским."
+            ]
+          }
+        },
+        {
+          "text": {}
+        }
+      ],
+      "priority": 500000,
+      "parameters": [
+        {
+          "displayName": "language",
+          "name": "a545a91f-f59f-40c3-ba53-db484a7923a3",
+          "entityTypeDisplayName": "@sys.language",
+          "value": "$language",
+          "mandatory": true,
+          "prompts": [
+            "What language do you know?"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "Food",
+      "name": "projects/newagent-aqmkfe/agent/intents/1f3084d2-e2f6-493d-8df2-973aa11b7a31",
+      "mlEnabled": true,
+      "priority": 500000
+    },
+    {
+      "displayName": "ОПЭ",
+      "name": "projects/newagent-aqmkfe/agent/intents/29b1656a-b34e-445f-ae5d-2eb3d40520d1",
+      "mlEnabled": true,
+      "action": "HelpDesk_supply",
+      "messages": [
+        {
+          "text": {}
+        }
+      ],
+      "priority": 500000,
+      "parameters": [
+        {
+          "displayName": "supply",
+          "name": "7d8b30c9-81c2-406f-8b4e-2c32f1cba4a1",
+          "entityTypeDisplayName": "@supply",
+          "value": "$supply",
+          "prompts": [
+            "Уточните, что именно вам нужно"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "IT отдел",
+      "name": "projects/newagent-aqmkfe/agent/intents/6fb53a9f-62bb-4a82-8199-012b31a558fe",
+      "mlEnabled": true,
+      "messages": [
+        {
+          "text": {}
+        }
+      ],
+      "priority": 500000
+    },
+    {
+      "displayName": "Бухгалтерия",
+      "name": "projects/newagent-aqmkfe/agent/intents/7caf30e3-82b1-4677-9fa7-f819ea690199",
+      "mlEnabled": true,
+      "messages": [
+        {
+          "text": {}
+        }
+      ],
+      "priority": 500000
+    },
+    {
+      "displayName": "Default Welcome Intent",
+      "name": "projects/newagent-aqmkfe/agent/intents/9a2fdf74-d541-4c65-9fa3-5101a3b77ab0",
+      "mlEnabled": true,
+      "action": "input.welcome",
+      "messages": [
+        {
+          "text": {
+            "text": [
+              "Привет!",
+              "Здравствуй!",
+              "Добрый день!"
+            ]
+          }
+        }
+      ],
+      "priority": 500000,
+      "events": [
+        "WELCOME"
+      ]
+    },
+    {
+      "displayName": "Default Fallback Intent",
+      "name": "projects/newagent-aqmkfe/agent/intents/f8d36922-3110-4c36-b00c-8d155bb2eeff",
+      "mlEnabled": true,
+      "action": "input.unknown",
+      "messages": [
+        {
+          "text": {
+            "text": [
+              "Не совсем понимаю, о чём ты.",
+              "Вот эта последняя фраза мне не ясна.",
+              "А вот это не совсем понятно.",
+              "Можешь сказать то же самое другими словами?",
+              "Вот сейчас я тебя совсем не понимаю.",
+              "Попробуй, пожалуйста, выразить свою мысль по-другому."
+            ]
+          }
+        }
+      ],
+      "isFallback": true,
+      "priority": 500000
+    }
+  ]
+}
